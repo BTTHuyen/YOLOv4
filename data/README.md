@@ -40,6 +40,8 @@ Training Yolo v4:
   [region]
   classes=2
   ```
+  
+  Please visit this website: https://github.com/BTTHuyen/YOLOv4/wiki/Config-parameters to see more detail about config parameters
 
 2. Create file `obj.names` in the directory `darknet/config`, with objects names - each in new line
 
