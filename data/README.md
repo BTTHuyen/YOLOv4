@@ -3,7 +3,7 @@
 
 Training Yolo v4:
 
-0. For training `cfg/yolov4-custom.cfg` download the pre-trained weights-file (162 MB): [yolov4.conv.137](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137) (Google drive mirror [yolov4.conv.137](https://drive.google.com/open?id=1JKF-bdIklxOOVy-2Cr5qdvjgGpmGfcbp) )
+0. For training `cfg/yolov4-custom.cfg` download the pre-trained weights-file (162 MB) in directory `darknet': [yolov4.conv.137](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137) (Google drive mirror [yolov4.conv.137](https://drive.google.com/open?id=1JKF-bdIklxOOVy-2Cr5qdvjgGpmGfcbp) )
 
 1. Create file `yolo-obj.cfg` with the same content as in `yolov4-custom.cfg` (or copy `yolov4-custom.cfg` to `yolo-obj.cfg)` and:
 
@@ -80,7 +80,7 @@ It will create `.txt`-file for each `.jpg`-image-file - in the same directory an
   1 0.420312 0.395833 0.140625 0.166667
   ```
 
-6. Create file `train.txt, test.txt` in directory `build\darknet\x64\data\`, with filenames of your images, each filename in new line, with path relative to `darknet.exe`, for example containing:
+6. Create file `train.txt, test.txt` in directory `darknet\data\`, with filenames of your images, each filename in new line. You can you [Make_train_Test.py](https://github.com/BTTHuyen/YOLOv4/blob/master/Make_Train_Test.py) to create 2 files. for example containing:
 
   ```
   data/obj/img1.jpg
