@@ -1,0 +1,5 @@
+classes= 9
+train  = data/train_JP_Coin_Banknote.txt
+valid  = data/test_JP_Coin_Banknote.txt
+names = cfg/JP_Coin_Banknote.names
+backup = backup/
